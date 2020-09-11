@@ -10,7 +10,7 @@ Haskell Markdown Server.
 $ ./shell/markdown-server
 ```
 
-For Mac or other unix like system, I build a eexecutable file and you can use it whereever you want. Just add a static folder as the same path as the executable file and run it as a command shell.
+For Mac or other unix like system, I build an eexecutable file and you can use it whereever you want. Just add a static folder as the same path as the executable file and run it as a command shell.
 
 Note: not run it as a root or user directory. If so, you should put the static folder at the root or user home directory. See shell.
 
