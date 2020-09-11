@@ -1,6 +1,9 @@
 module Main where
 
-import Lib
+import Application
+import Network.Wai.Handler.Warp
 
 main :: IO ()
-main = someFunc
+main = do
+  putStrLn "Running at: http://localhost:3000"
+  run 3000 application
